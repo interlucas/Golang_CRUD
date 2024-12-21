@@ -3,12 +3,11 @@ package main
 import (
 	"context"
 	"log"
-	"os"
-	"fmt"
-	_ "github.com/interlucas/Golang_CRUD/docs"
-	"github.com/interlucas/Golang_CRUD/src/configuration/database/mongodb"
-	"github.com/interlucas/Golang_CRUD/src/configuration/logger"
-	"github.com/interlucas/Golang_CRUD/src/controller/routes"
+
+	_ "github.com/HunCoding/meu-primeiro-crud-go/docs"
+	"github.com/HunCoding/meu-primeiro-crud-go/src/configuration/database/mongodb"
+	"github.com/HunCoding/meu-primeiro-crud-go/src/configuration/logger"
+	"github.com/HunCoding/meu-primeiro-crud-go/src/controller/routes"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
@@ -21,7 +20,7 @@ import (
 // @schemes http
 // @license MIT
 func main() {
-	//logger.Info("About to start user application")
+	logger.Info("About to start user application")
 
 	godotenv.Load()
 
