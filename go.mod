@@ -1,4 +1,4 @@
-module github.com/interlucas/Golang_CRUD.git
+module github.com/interlucas/Golang_CRUD
 
 go 1.23.1
 
