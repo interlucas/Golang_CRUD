@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"github.com/interlucas/Golang_CRUD/src/controller/routes"
-	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
 
